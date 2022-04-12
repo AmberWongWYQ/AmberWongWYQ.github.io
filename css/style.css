@@ -7,7 +7,13 @@ body {
 a {
     width: 100px;
     height: 30px;
-    border-radius: 10%;
+    border-radius: 15%;
+
+    /* 超文本链接 */
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
     text-decoration: none;
     color: #ffffff;
 }
@@ -32,7 +38,7 @@ h3 {
 
 a:hover {
     color: #fffab6;
-    background-color:#a15257;
+    background-color: #a15257;
 }
 
 h3:hover {
@@ -69,6 +75,6 @@ table {
 }
 
 #jumpbox {
-    width: auto;
+    width: 300px;
     margin: 10px;
 }
