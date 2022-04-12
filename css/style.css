@@ -1,0 +1,52 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e49ba1;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background-color: #ccd2df;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #a2adc3;
+}
+
+a:hover {
+    color: #fffab6;
+}
+
+h3:hover {
+    color: #ffffff;
+}
+
+table {
+    text-align: center;
+}
+
+.imgbox {
+    text-align: center;
+}
+
+.container {
+    color: #a15257;
+    padding: 10px;
+    margin: 0 auto;
+    width: 800px;
+    background-image: url(../img/bg.jpg);
+}
