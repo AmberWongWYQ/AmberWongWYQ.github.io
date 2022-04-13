@@ -1,4 +1,5 @@
 body {
+    position: relative;
     margin: 0;
     padding: 0;
 }
@@ -21,8 +22,9 @@ p {
     text-align: center;
     padding-top: 0;
     margin-top: 0;
-    margin-bottom: 10px;
-    height: 50px;
+    margin-bottom: 0px;
+    height: 30px;
+    width: auto;
     color: #ffffff;
 }
 
@@ -37,7 +39,6 @@ a:hover {
     color: #fffab6;
     background-color: #a15257;
 }
-
 
 .header {
     position: fixed;
@@ -69,6 +70,41 @@ a:hover {
     background-color: #3319f6;
 }
 
+.topline1 {
+    float: left;
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.topline2 {
+    float: right;
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.topline1:hover {
+    border: 2px solid;
+    border-top-color: white;
+    border-bottom-color: #3319f6;
+    border-right-color: #3319f6;
+    border-left-color: #3319f6;
+}
+.topline2:hover {
+    border: 2px solid;
+    border-top-color: white;
+    border-bottom-color: #3319f6;
+    border-right-color: #3319f6;
+    border-left-color: #3319f6;
+}
+
 .black1 {
     float: left;
     height: 380px;
@@ -80,6 +116,7 @@ a:hover {
 
 .lineone {
     float: left;
+    left: 40px;
     height: 30px;
     width: 142px;
     margin-right: 10px;
