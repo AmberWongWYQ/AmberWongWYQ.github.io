@@ -45,8 +45,16 @@ a:hover {
     width: 100%;
     top: 0;
     height: 50px;
-    background-color: #a1d5ff;
+    background-color: #3319f6;
     margin-bottom: 10px;
+}
+
+.abstract1 {
+    height: 400px;
+    padding-top: 0;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: #c3e1ff;
 }
 
 .main {
@@ -70,10 +78,25 @@ a:hover {
     background-color: #3319f6;
 }
 
+/* .abstract1>.container {
+    height: 50px;
+    background-color: #3319f6;
+} */
+
+.toplist1 {
+    float: left;
+    width: 350px;
+}
+
+.toplist2 {
+    float: right;
+    width: 350px;
+}
+
 .topline1 {
     float: left;
     height: 30px;
-    width: 80px;
+    width: 65px;
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 13px;
@@ -83,7 +106,7 @@ a:hover {
 .topline2 {
     float: right;
     height: 30px;
-    width: 80px;
+    width: 65px;
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 13px;
@@ -106,13 +129,27 @@ a:hover {
     border-left-color: #3319f6;
 }
 
+.topline1:hover {
+    border: 2px solid;
+    border-top-color: white;
+    border-bottom-color: #3319f6;
+    border-right-color: #3319f6;
+    border-left-color: #3319f6;
+}
+
+.topline2:hover {
+    border: 2px solid;
+    border-top-color: white;
+    border-bottom-color: #3319f6;
+    border-right-color: #3319f6;
+    border-left-color: #3319f6;
+}
+
 .black1 {
     float: left;
-    height: 380px;
     width: 1300px;
-    background-color: #c3e1ff;
-    margin-bottom: 10px;
-    margin-top: 30px;
+    margin: 30px auto 10px;
+    height: 60px;
 }
 
 .lineone {
@@ -130,7 +167,7 @@ a:hover {
 .linetwo {
     float: left;
     height: 30px;
-    width: 305px;
+    width: 240px;
     margin-right: 10px;
     margin-left: 10px;
     background-color: rgb(254, 205, 255);
@@ -234,11 +271,11 @@ a:hover {
 }
 
 .left3:hover {
-    background-color:#fedbff;  
+    background-color: #fedbff;
 }
 
 .right3:hover {
-    background-color:#c3e1ff;  
+    background-color: #c3e1ff;
 }
 
 .blank4 {
@@ -293,23 +330,23 @@ a:hover {
     margin-right: 0px;
 }
 
-.box1{
+.box1 {
     float: right;
     height: 63px;
     width: 300px;
     background-color: #ffffff;
 }
 
-.box2{
+.box2 {
     float: left;
     height: 90px;
-    width:190px;
+    width: 190px;
 }
 
 .left4:hover {
     background-color: #fedbff;
 }
 
-.box2:hover{
+.box2:hover {
     background-color: #fedbff;
 }
