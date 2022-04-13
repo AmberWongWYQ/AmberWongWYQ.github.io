@@ -97,6 +97,7 @@ a:hover {
     border-right-color: #3319f6;
     border-left-color: #3319f6;
 }
+
 .topline2:hover {
     border: 2px solid;
     border-top-color: white;
@@ -147,7 +148,6 @@ a:hover {
     width: 1300px;
     margin-bottom: 20px;
     margin-top: 10px;
-
 }
 
 .left1 {
@@ -187,6 +187,31 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.blank3 {
+    float: left;
+    height: 70px;
+    width: 1300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.tittle2a {
+    float: left;
+    text-align: center;
+    height: 70px;
+    width: 580px;
+    background-color: white;
+}
+
+.tittle2b {
+    float: right;
+    text-align: center;
+    height: 70px;
+    width: 580px;
+    background-color: white;
+    /* margin-right: 0px; */
+}
+
 .left3 {
     float: left;
     height: 50px;
@@ -208,21 +233,20 @@ a:hover {
     margin-right: 0px;
 }
 
-.tittle2a {
-    float: left;
-    text-align: center;
-    height: 70px;
-    width: 580px;
-    background-color: white;
+.left3:hover {
+    background-color:#fedbff;  
 }
 
-.tittle2b {
-    float: right;
-    text-align: center;
+.right3:hover {
+    background-color:#c3e1ff;  
+}
+
+.blank4 {
+    float: left;
     height: 70px;
-    width: 580px;
-    background-color: white;
-    margin-right: 0px;
+    width: 1300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .tittle3a {
@@ -254,7 +278,8 @@ a:hover {
     float: left;
     height: 63px;
     width: 400px;
-    background-color: #fedbff;
+    color: #ffffff;
+    background-color: #c3e1ff;
     margin-bottom: 11px;
 }
 
@@ -266,4 +291,25 @@ a:hover {
     margin-bottom: 10px;
     margin-left: 60px;
     margin-right: 0px;
+}
+
+.box1{
+    float: right;
+    height: 63px;
+    width: 300px;
+    background-color: #ffffff;
+}
+
+.box2{
+    float: left;
+    height: 90px;
+    width:190px;
+}
+
+.left4:hover {
+    background-color: #fedbff;
+}
+
+.box2:hover{
+    background-color: #fedbff;
 }
