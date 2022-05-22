@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#ffd289e3, #fef8e2);
+}
+
+form {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #f4f4f4;
+    display: block;
+    max-width: 960px;
+    min-width: 285px;
+    padding: 1.5rem;
+    text-align: left;
+    background-color: rgb(255, 246, 232);
+}
+
+a {
+    width: 100px;
+    height: 30px;
+    border-radius: 15%;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #adadad;
+    text-decoration-line: underline;
+}
+
+h1 {
+    height: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'youyuan';
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'youyuan';
+    color: rgb(173, 132, 70);
+}
+
+input, select, textarea {
+    border: 1px solid rgb(162, 142, 111);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: rgb(243, 215, 173);
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+#submitbotton {
+    width: 90px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.divForm {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.return {
+    margin: 20px;
+}
+
+.return a {
+    width: 100px;
+    height: 35px;
+    border-radius: 15%;
+    border: 5px solid rgba(243, 215, 173, 0.7);
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: rgb(243, 215, 173);
+    font-family: '华文彩云';
+}
+
+input[type="submit"]:hover {
+    transition: 0.5s;
+    background: linear-gradient(#ffd289e3, #fef8e2);
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: rgb(243, 215, 173);
+}
+
+@media (max-width:960px) {
+    .divForm {
+        width: 600px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 30px;
+    }
+
+    #submitbotton input {
+        font-size: 20px;
+    }
+
+}

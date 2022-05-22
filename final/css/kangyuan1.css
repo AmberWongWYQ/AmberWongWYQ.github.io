@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* 100%窗口高度 */
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 渐变背景 */
+    background: linear-gradient(#4444b1, #e2e3fe);
+
+}
+
+p {
+    font-size: 20px;
+    font-style: inherit;
+    font-family: '华文幼圆';
+    color: #ffffff;
+}
+
+a {
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    border: 5px solid #ffffff;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: '华文彩云';
+}
+
+.container {
+    width: 480px;
+    margin: 10px atuo 10px;
+    position: relative;
+}
+
+.return {
+    height: 60px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    position: relative;
+    width: 480px;
+    height: 520px;
+    margin: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    /* 溢出不显示 */
+    overflow: hidden;
+    display: flex;
+    /* 元素纵向排列 */
+    flex-direction: column;
+    align-items: center;
+    /* 不让其被挤压 */
+    flex-shrink: 0;
+}
+
+.card .photo img {
+    /* 保持原有比例 */
+    width: 100%;
+    height: 100%;
+    /* 裁剪 */
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.card .photo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    /* 溢出不显示 */
+    overflow: hidden;
+    /* 动画过渡 */
+    transition: 0.5s;
+    z-index: 999;
+}
+
+/* 鼠标移入变小 */
+.card:hover .photo {
+    background-color: rgba(255, 255, 255, 0);
+    top: 15px;
+    width: 240px;
+    height: 240px;
+}
+
+.card p {
+    width: 80%;
+    margin-top: 250px;
+    margin-bottom: 25px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+
+}
+
+a:hover {
+    color: #6363ae;
+    background-color: #ffffff;
+}
+
+@media (max-width:960px) {
+    .container {
+        width: 100%;
+    }
+
+    a {
+        width: 200px;
+        height: 18px;
+        border-radius: 15%;
+        border: 3px solid #ffffff;
+        padding-top: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: '华文彩云';
+    }
+}

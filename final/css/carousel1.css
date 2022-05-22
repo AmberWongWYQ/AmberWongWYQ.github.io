@@ -1,0 +1,173 @@
+ul {
+    display: block;
+    /* 消除小黑点 */
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    /* y轴居中 */
+    align-items: center;
+    /* x轴居中 */
+    justify-content: center;
+    background: linear-gradient(#6363ae, #e2e3fe);
+}
+
+a {
+    width: 400px;
+    height: 35px;
+    border-radius: 15%;
+    border: 5px solid #ffffff;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: '华文彩云';
+}
+
+.container {
+    width: 960px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.return {
+    margin: 10px;
+}
+
+.carousel {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    /* 溢出显示-不显示 */
+    overflow-x: hidden;
+    border-radius: 5px;
+    border: 10px solid #afb8ff;
+    box-shadow: 20px 30px 20px rgba(39, 31, 98, 0.5);
+}
+
+.images {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.2s;
+}
+
+.img {
+    width: 100%;
+    background-size: cover;
+}
+
+/* p:nth-child(n)----->选中p元素，且该p元素必须是某个父元素下的第n个子元素 */
+.img:nth-child(1) {
+    background-image: url("../img/1.jpeg");
+}
+
+.img:nth-child(2) {
+    background-image: url("../img/2.jpeg");
+}
+
+.img:nth-child(3) {
+    background-image: url("../img/3.jpeg");
+}
+
+.img:nth-child(4) {
+    background-image: url("../img/3.jpeg");
+}
+
+.min-images {
+    display: flex;
+    /* x轴，每个项目两侧间隔相等，项目之间间隔比边框间隔大一倍 */
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 20px;
+    width: 40%;
+    z-index: 999;
+    right: 10%;
+}
+
+.min {
+    width: 60px;
+    height: 60px;
+    /* 指针样式：鼠标悬浮时显示按钮 */
+    cursor: pointer;
+    border-radius: 50%;
+    background-size: cover;
+    border: solid 5px rgba(197, 190, 251, 0.5);
+    /* 照片偏移量 */
+    background-position: -20px 0;
+}
+
+.min:nth-child(1) {
+    background-image: url("../img/1.jpeg");
+}
+
+.min:nth-child(2) {
+    background-image: url("../img/2.jpeg");
+}
+
+.min:nth-child(3) {
+    background-image: url("../img/3.jpeg");
+}
+
+.min:nth-child(4) {
+    background-image: url("../img/3.jpeg");
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.button-left,
+.button-right {
+    font-size: 40px;
+    background-color: rgba(166, 158, 205, 0.5);
+    padding: 0 10px;
+    line-height: 500px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+    color: #6363ae;
+    background-color: #ffffff;
+}
+
+@media (max-width:960px) {
+    .container {
+        width: 100%;
+    }
+
+    a {
+        width: 200px;
+        height: 18px;
+        border-radius: 15%;
+        border: 3px solid #ffffff;
+        padding-top: 5px;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        line-height: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: '华文彩云';
+    }
+}
